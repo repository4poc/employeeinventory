@@ -4,11 +4,14 @@ class LogoutComponent extends Component {
   render() {
     return (
       <div>
-        <hr></hr>
-        You are Logged out
+          <div className="container">
+            <h1>You are Logged out..</h1>
+            <span>Thanks for visiting..</span>
+          </div>
       </div>
     );
   }
 }
 
-export default LogoutComponent;
+export default LogoutComponent
+;

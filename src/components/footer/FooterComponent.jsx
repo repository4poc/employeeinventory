@@ -1,12 +1,12 @@
 import { Component } from "react";
+import "./FooterComponent.css";
 
 class FooterComponent extends Component {
   render() {
     return (
-      <div>
-        <hr></hr>
-        Footer
-      </div>
+      <footer className="footer">
+        <span className="text-black">All Rights Reserved</span>
+      </footer>
     );
   }
 }
